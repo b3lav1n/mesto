@@ -1,0 +1,18 @@
+.popup__button {
+  background: #000000;
+  border-radius: 2px;
+  max-width: 358px;
+  min-height: 50px;
+  color: #fff;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.popup__button:hover {
+  opacity: 0.5;
+}
+
+
