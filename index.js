@@ -6,22 +6,22 @@ const profileText = document.querySelector('.profile__text'); // редакти�
 const savePopupButton = popup.querySelector('.popup__button'); // кнопка сохранить
 const buttonClosePopup = popup.querySelector('.popup__close-icon'); // кнопка закрытия попапа
 const formPopup = popup.querySelector('.popup__form'); // форма попапа
-const nameInput = formPopup.querySelector('.name__input');        
-const jobInput = formPopup.querySelector('.job__input');
+const nameInput = formPopup.querySelector('.popup_name_input');        
+const jobInput = formPopup.querySelector('.popup_job_input');
 
 const elements = document.querySelector('.elements__element'); // список для карточек
 const templateCard = document.querySelector('#template-cards').content // tamplate обьект
 
 const addCardButton = document.querySelector('.profile__add-button'); // кнопка открытия попапа для добавления карточек
 const popupCards = document.querySelector('.popup_card-add'); // попап для загрузки карточек
-const closePopupButton = document.querySelector('.popup_card-close');
+const closePopupButton = document.querySelector('#popup_card-close');
 
 const popupForm = document.querySelector('#create__card')   
-const nameCardInput = document.querySelector('.name__card-input');
-const linkCardInput = document.querySelector('.link__input');
+const nameCardInput = document.querySelector('#name__card-input');
+const linkCardInput = document.querySelector('#link__input');
 
 const popupImageZoom = document.querySelector('.popup_image-zoom')
-const closePopupImage = document.querySelector('.popop__close-zoom_image');
+const closePopupImage = document.querySelector('.popup__close-zoom_image');
 
 // реализация редактирования попапа
 
