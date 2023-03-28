@@ -1,5 +1,5 @@
 // попап для редактирования профиля
-const profilePopup = document.querySelector('.popup__profile');  //попап редактирования профиля
+const profilePopup = document.querySelector('.profile_popup');  //попап редактирования профиля
 const editProfileButton = document.querySelector('.profile__edit-button'); // кнопка редактирования профиля
 const profileName = document.querySelector('.profile__name'); // редактирование имени
 const profileText = document.querySelector('.profile__text'); // редактирование должности
